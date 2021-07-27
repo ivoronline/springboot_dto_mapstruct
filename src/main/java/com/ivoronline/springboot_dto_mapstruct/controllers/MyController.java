@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class MyController {
 
   @ResponseBody
-  @RequestMapping("addAuthorBook")
+  @RequestMapping("AddAuthorBook")
   public String addAuthorBook(@RequestBody AuthorBookDTO authorBookDTO) {
 
     //INSTANTIATE MAPPER
